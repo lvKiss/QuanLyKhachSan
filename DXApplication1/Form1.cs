@@ -15,5 +15,11 @@ namespace DXApplication1
         {
             InitializeComponent();
         }
+
+        private void btnShowNhanVienForm_Click(object sender, EventArgs e)
+        {
+            frmNhanVien nhanVien = new frmNhanVien();
+            nhanVien.Show();
+        }
     }
 }
